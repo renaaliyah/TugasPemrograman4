@@ -1,0 +1,14 @@
+public class Spider extends Animal {
+    public Spider(){
+                
+}
+    public void Spider(){
+   System.out.println("This is Spider");
+  }
+  
+ 
+  public void eat(){
+   System.out.println("Spider is eating");
+  }
+    
+}
