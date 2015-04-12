@@ -1,0 +1,33 @@
+public class Fish extends Animal implements Pet{
+    protected String name;
+    
+        public Fish(){
+            System.out.println("This is Fish");                 
+}
+        public Fish(String nm){
+            System.out.println("This is Nemo" +name);
+        }
+
+    @Override
+    public String getName(){
+        return name;
+    }
+
+    @Override
+    public void setName(String nm){
+        name = nm;
+    }
+
+    @Override
+    public void play() {
+        System.out.println("Fish is playing");
+    }
+    
+    public void walk(){
+        System.out.println("Fish is Swimming");
+    }
+    
+    public void eat(){
+        System.out.println("Fish is eating");
+    }
+}
