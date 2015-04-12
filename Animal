@@ -1,0 +1,22 @@
+public class Animal {
+    protected int legs;
+    
+   public Animal (){
+     
+    } 
+
+public void Animal(int Legs){
+    this.legs=Legs;
+    System.out.println("Legs Animal is ...");
+      
+}
+ 
+public void walk(){
+    System.out.println("animal is walk");
+}
+    
+public void eat(){
+    System.out.println("animal is eating");
+}
+
+}
