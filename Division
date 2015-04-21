@@ -1,0 +1,38 @@
+public class Division extends Department{
+    protected String KepalaDivisi;
+    
+public Division(){
+    super();
+}
+
+public Division(String id){
+    super(id);
+}
+
+public Division(String id, String nama_dept){
+    super(id,nama_dept);
+}
+
+public Division(String id,String nama_dept,String newKepalaDiv){
+    super(id,nama_dept);
+    KepalaDivisi=newKepalaDiv;
+}
+
+
+public void tampilkaninfo(){
+    System.out.println("Id :" +id);
+    System.out.println("Nama Department :" +nama_dept);
+    System.out.println("Kepala divisi :" +KepalaDivisi);
+}
+
+public void tampilkaninfogaji(int Gaji){
+    System.out.println("Id  :"+id);
+    System.out.println("Nama Depatment :"+nama_dept);
+    System.out.println("Kepala Divisi :"+KepalaDivisi);
+    System.out.println("Gaji :"+Gaji);
+}
+
+public void HitungGaji(){
+
+}
+}
