@@ -1,0 +1,25 @@
+public class MainDepartment {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Department department1 = new Department();
+        Department department2 = new Department("A1");
+        Department department3 = new Department("A2, Keuangan");
+        
+        Division divisi = new Division("A3","Tata Usaha","Pak Suharjo");
+        Division divisi2 = new Division();
+        
+        department1.tampilkanifon();
+        department2.tampilkanifon();
+        department3.tampilkanifon();
+        
+        divisi.tampilkaninfo();
+        divisi.HitungGaji();
+        divisi2.tampilkanifon();
+        divisi2.HitungGaji();
+        
+    }
+    
+}
