@@ -1,0 +1,24 @@
+public class Department {
+    protected String id;
+    protected String nama_dept;
+    
+public Department(){
+
+}
+
+public Department(String newid){
+    id=newid;
+}
+
+public Department(String newid,String newnama_dept){
+    id=newid;
+    nama_dept=newnama_dept;
+}
+
+public void tampilkanifon(){
+    System.out.println("Id  :" + id);
+    System.out.println("Nama Department :" +nama_dept);
+}
+    
+    
+}
